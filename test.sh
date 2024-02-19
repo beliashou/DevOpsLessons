@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# loop for all lines in file text.txt
+# loop for all lines in file test.txt
 
 while IFS= read -r line
 do
     echo "$line"
-done < "text.txt"
+done < "test.txt"
